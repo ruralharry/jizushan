@@ -6,9 +6,29 @@
     <a href="#项目概述">项目概述</a> • 
     <a href="#核心问题分析">问题分析</a> • 
     <a href="#文档导航">文档导航</a> • 
-    <a href="#使用指南">使用指南</a>
+    <a href="#专业逻辑框架">逻辑框架</a>
   </p>
 </div>
+
+<script>
+// 修复GitHub Pages上的锚点跳转问题
+document.addEventListener('DOMContentLoaded', function() {
+  // 为所有内部锚点链接添加点击事件
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function(e) {
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId) || 
+                           document.querySelector(`[name="${targetId}"]`) ||
+                           document.querySelector(`a[name="${targetId}"]`);
+      
+      if (targetElement) {
+        e.preventDefault();
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+});
+</script>
 
 ## 📋 项目概述
 
@@ -53,6 +73,7 @@
 | **党内法规分析** | 廉洁纪律构成要件分析、纪委定性准确性评估 | [📖 查看文档](党内法规分析.md) |
 | **劳动法分析** | 劳动者报酬权保护、劳动合同履行 | [📖 查看文档](劳动法分析.md) |
 | **三审三校制度分析** | 新闻出版行业专业要求、制度执行现实 | [📖 查看文档](三审三校制度分析.md) |
+| **劳动合同制员工薪资限制分析** | 劳动合同制员工薪资限制政策分析 | [📖 查看文档](劳动合同制员工薪资限制分析.md) |
 
 ### 二、辩护策略框架
 
@@ -81,6 +102,7 @@
 |---------|----------|----------|
 | **法律引用格式标准** | 法律条文引用规范、格式统一 | [📖 查看文档](法律引用格式标准.md) |
 | **致党委办公室的情况反映信** | 正式沟通模板、事实陈述框架 | [📖 查看文档](致党委办公室的情况反映信.md) |
+| **绩效奖金拖欠纠纷法律分析** | 绩效奖金扣减争议法律分析 | [📖 查看文档](绩效奖金拖欠纠纷法律分析.md) |
 
 ---
 
