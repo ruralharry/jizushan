@@ -1,0 +1,27 @@
+title: "国企三审费用法律分析项目"
+description: "针对国有企业责任编辑三审费用支付问题的全面法律分析和辩护框架"
+baseurl: "/jizushan"
+url: "https://yourusername.github.io"
+
+# GitHub Pages settings
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - ".github"
+  - "node_modules"
+  - "Gemfile"
+  - "Gemfile.lock"
