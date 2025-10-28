@@ -2,33 +2,12 @@
 
 <div align="center">
   <p><strong>专业的法律分析平台 | 全面的辩护框架 | 实用的解决方案</strong></p>
-  <p>
-    <a href="#项目概述">项目概述</a> • 
-    <a href="#核心问题分析">问题分析</a> • 
-    <a href="#文档导航">文档导航</a> • 
-    <a href="#专业逻辑框架">逻辑框架</a>
-  </p>
 </div>
 
-<script>
-// 修复GitHub Pages上的锚点跳转问题
-document.addEventListener('DOMContentLoaded', function() {
-  // 为所有内部锚点链接添加点击事件
-  document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener('click', function(e) {
-      const targetId = this.getAttribute('href').substring(1);
-      const targetElement = document.getElementById(targetId) || 
-                           document.querySelector(`[name="${targetId}"]`) ||
-                           document.querySelector(`a[name="${targetId}"]`);
-      
-      if (targetElement) {
-        e.preventDefault();
-        targetElement.scrollIntoView({ behavior: 'smooth' });
-      }
-    });
-  });
-});
-</script>
+- [🏛️ 项目概述](#项目概述)
+- [🔍 问题分析](#核心问题分析)
+- [📚 文档导航](#文档导航)
+- [🧠 逻辑框架](#专业逻辑框架)
 
 ## 📋 项目概述
 
